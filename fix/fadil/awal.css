@@ -1,0 +1,19 @@
+  .desti{
+      margin-top: 160px;
+      width: 100%;
+      float: right;
+  }
+  .txt-desti{
+      width: 50%;
+      float: right;
+      padding: 100px 20px;
+  }
+  .gmb-desti{
+      width: 50%;
+      float: right;
+  }
+
+  .aud{
+      visibility: hidden;
+  }
+

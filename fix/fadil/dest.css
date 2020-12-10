@@ -1,0 +1,419 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+
+
+
+
+
+.content {
+max-width: 100%;
+margin-left: 3%;
+margin-top: 2%;
+margin-bottom: 150px;
+}
+.content h1{
+  text-align: left;
+  font-size: 42px;  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.content p{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: left;
+  font-size: 14px;  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  }
+
+
+  /*galeri*/
+.cont {
+margin-top: 70px;
+width: 100%;
+  }
+.cont h2{ margin-left: 30px;
+}
+.cont p{
+  margin-left: 30px;
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 13px;
+  
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #262d30d8;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  border-radius: 13px;
+}
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.gambar1 {
+  position: relative;
+  width: 30%;
+  float: left;
+  margin: 10px;
+  
+}
+.gambar1:hover .overlay {
+  height: 100%;
+}
+.gambar2 {
+  position: relative;
+  width: 30%;
+  float: left;
+  margin: 10px;
+}
+
+
+.gambar2:hover .overlay {
+  height: 100%;
+}
+
+.gambar3 {
+  position: relative;
+  width: 30%;
+  float: left;
+  margin: 10px;
+}
+
+.gambar3:hover .overlay {
+  height: 100%;
+}
+
+.gambar4 {
+  float: left;
+  position: relative;
+  width: 30%;
+  margin: 10px;
+}
+.gambar4:hover .overlay {
+  height: 100%;
+}
+.gambar5 {
+  position: relative;
+  width: 30%;
+  float: left;
+  margin: 10px;
+  
+}
+.gambar5:hover .overlay {
+  height: 100%;
+}
+.gambar6 {
+  position: relative;
+  width: 30%;
+  float: left;
+  margin: 10px;
+  
+}
+.gambar6:hover .overlay {
+  height: 100%;
+}
+.gambar7 {
+  position: relative;
+  width: 30%;
+  float: left;
+  margin: 10px;
+  
+}
+.gambar7:hover .overlay {
+  height: 100%;
+}
+.gambar8 {
+  position: relative;
+  width: 30%;
+  float: left;
+  margin: 10px;
+  
+}
+.gambar8:hover .overlay {
+  height: 100%;
+}
+.gambar9 {
+  position: relative;
+  width: 30%;
+  float: left;
+  margin: 10px;
+  
+}
+.gambar9:hover .overlay {
+  height: 100%;
+}
+.gambar10 {
+  position: relative;
+  width: 30%;
+  float: left;
+  margin: 10px;
+  
+}
+.gambar10:hover .overlay {
+  height: 100%;
+}
+.gambar11 {
+  position: relative;
+  width: 30%;
+  float: left;
+  margin: 10px;
+  
+}
+.gambar11:hover .overlay {
+  height: 100%;}
+  
+/* tombol lihat lebih banyak destinasi */
+  .button {
+    border-radius: 4px;
+    background-color: #2884ee;
+    border: none;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 15px;
+    padding: 10px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 30px 30px;
+    
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+#more {display: none;}
+
+
+
+
+.c-bawah{
+  background-color: #FFFFFF;
+ max-width: 100%;
+padding-top: 30px;
+height: auto;
+}
+.c-bawah img{
+  width: 30%;
+}
+  /*footer*/
+  #autoplay {
+    
+    width: 100%;
+    max-height: 410px;
+    object-fit: cover;
+    position: relative;
+  }
+
+  footer{
+   
+    
+    margin-top: 50px;
+    background-color: rgb(15, 14, 14);
+    border-top: solid;
+    width: 100%;
+    min-height: 337px;
+    padding-bottom: 1px;
+  }
+  footer .atas {
+    width: 100%;
+    height: 75px;
+    border-bottom: solid;
+  }
+  footer .atas p{
+    width: 500px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(245, 245, 245, 0.904);
+    float: left;
+    margin-top: 10px;
+    margin-left: 150px;
+    text-align: right;
+  }
+  .atas .mail{
+    float: right;
+    margin: 12px;
+    width: 520px;
+    transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+    cursor: pointer;
+  }
+  .atas #mail{
+    height: 45px;
+    width: 500px;
+    border-radius: 7px;
+  }
+  .atas #mail:focus{
+    font-size: 19px;
+  }
+  .atas #button:focus{
+    opacity: 0.8;
+  }
+  .atas #button:hover{
+    background-size:30px;
+  }
+  
+  .atas #button{
+    width: 42px;
+    background-image: url(/kelompok3/logo/mail.png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    margin-left: -55px;
+    border: none;
+    
+  }
+  footer .bawah{
+    display: inline;
+    width: 100%;
+    height: fit-content;
+    color: rgb(65, 64, 64);   
+  }
+  .bawah .exp{
+    width: 280px;
+    margin-top: -110px;
+    margin-left: 2%;
+    margin-right: 200px;
+    float: left;
+  }
+  .ikon-kanan img {
+    width: 30px;
+    margin: 10px;
+
+  }
+
+  .bawah .list {
+    margin-top: 15px;
+    margin-bottom: 50px;
+
+  }
+  .list ul li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: solid;
+  }
+.ikon-kanan{
+  margin-top: -70px;
+  float: right;
+  margin-right: 20px;
+}
+/* tombol lanjut */
+html {
+  scroll-behavior: smooth;
+}
+
+#section1 {
+ 
+  padding: 1px;
+  margin: auto;
+  width: 70px;
+  height: 30px;
+  background-color: rgb(255, 123, 0);
+  border-radius: 3px;
+ font-style: normal;
+ 
+}
+#section1:hover{
+  background-color: #00ee4f;
+  
+}
+
+
+
+
+section{
+    padding: 20px;
+    width: 1280px;
+    margin: 40px auto;
+    cursor: pointer;
+
+}
+section ul{
+    display:flex;
+    margin-bottom: 10px;
+}
+
+section ul li{
+    list-style: none;
+    background-color: rgb(143, 133, 133);
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+section ul li.active{
+    background: #07ee6f;
+    color: #ffffff;
+
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product .itemBox{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+
+}
+.product .itemBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+     
+}

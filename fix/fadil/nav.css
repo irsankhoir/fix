@@ -1,0 +1,38 @@
+nav{
+    z-index: 1;
+    position: fixed !important;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navbar-expand-lg{
+background-color: #222831;
+font-family: PlayfairDisplay-Regular_;
+font-weight: bold;
+padding: 0;
+}
+
+.navbar-brand{
+    color: rgb(255, 255, 255) !important;
+}
+
+.nav-link{
+    color:#00adb5 !important;
+}
+
+.navbar-nav{
+    padding: 5px;
+    transition: all 2s !important;
+}
+
+.navbar-nav a{
+    Margin-left: 40px;
+} 
+
+.navbar-nav :hover{
+    background-color: #393e46;
+    transition: all 2s;
+    border-radius: 10px;
+    color: #31dbe4 !important;
+}
+

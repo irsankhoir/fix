@@ -1,0 +1,176 @@
+.isi {
+    height: 500px;
+    padding-bottom: 0px;
+    background-color: white;
+    text-align: center;
+  }
+  
+.heading {
+    padding-top: 70px;
+    padding-bottom: 60px;
+    color: black;
+  }
+  
+.heading h2 {
+    font-weight: normal;
+  }
+  
+.isi-dalam2 {
+    padding: 30px;
+    padding-bottom: auto;
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    transition: all 0.4s ease-in-out;
+    
+  }
+
+.isi-dalam2:hover{
+    background-color: #e7f5ef;
+    width: 25%;
+    padding: 20px;
+    transform: translate(20px);
+    border-radius: 20px;
+  }
+
+.isi-dalam2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    transition: all 0.4s ;
+    opacity: 0;
+  }
+
+.isi-dalam2:hover::before{
+    opacity: 1;
+  }
+
+.isi-dalam2 img{
+    object-fit: cover;
+  } 
+
+.isi-dalam2 .nimbul{
+    position: relative;
+    z-index: 3;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.4s ;    
+  }
+
+.isi-dalam2:hover .nimbul{
+    opacity: 1;
+    margin-bottom: 45px;
+    margin-top: 0px;
+  }
+
+.nimbul{
+    margin-bottom: 0px;
+    font-size: 13px;
+    display: inline-block;
+  }
+
+.isi-icon {
+    position: relative;
+  }
+
+.isi-icon img{
+    width: 130px;
+  }
+  
+.isi-dalam2 h2 {
+    font-size: 25px;
+    color: rgb(45, 132, 245);
+    margin-top: -30px;
+  }
+  
+.buton{
+    background-color: #c6fce5;
+    border-radius: 200px;
+    padding: 11px;
+    box-shadow: 2px 1px 2px 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.buton:hover {
+    text-decoration: none;
+  }
+
+.buton:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+    text-decoration: none;
+  }
+
+  @media all and (max-width: 1000px) {
+    body{
+        width: auto;
+    }
+    
+}
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    body{
+        width: auto;
+    }
+    
+.isi{
+    width: 100%;
+}
+.isi-dalam{
+    width: 100%;
+}
+.isi-dalam2{
+    width: 100%;
+}
+.isi-dalam2 {
+    padding: 30px;
+    padding-bottom: auto;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.4s ease-in-out;
+    
+  }
+
+.isi-dalam2:hover{
+    background-color: #e7f5ef;
+    width: 100%;
+    padding: 20px;
+    transform: translate(20px);
+    border-radius: 20px;
+  }
+
+.isi-dalam2::before{
+    content: "";
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    transition: all 0.4s ;
+    opacity: 0;
+  }
+
+.isi-dalam2:hover::before{
+    opacity: 1;
+  }
+
+  .desti{
+      width: 100%;
+  }
+  .txt-desti{
+      padding-top: 10px;
+      float: right;
+      width: 100%;
+      font-size: 15px;
+  }
+  .gmb-desti{
+      float: right;
+      width: 100%;
+  }
+
+  }
