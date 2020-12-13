@@ -7,7 +7,7 @@ nav{
 
 .navbar-expand-lg{
 background-color: #222831;
-font-family: PlayfairDisplay-Regular_;
+font-family: 'Playfair Display';
 font-weight: bold;
 padding: 0;
 }
@@ -36,3 +36,8 @@ padding: 0;
     color: #31dbe4 !important;
 }
 
+@media screen and (max-width:670px){
+    .navbar a img{
+        margin-left: 25px;
+    }
+}

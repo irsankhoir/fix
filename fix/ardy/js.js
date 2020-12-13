@@ -77,3 +77,4 @@ function showSlides() {
   dotsajah[slideIndex-1].className += " active";
   setTimeout(showSlides, 8000); // Change image every 8 seconds
 }
+

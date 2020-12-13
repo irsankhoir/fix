@@ -6,15 +6,15 @@
     
     <title>ContactUs/exploreID</title>
  
-    <link rel="stylesheet" type="text/css" href="/fix/ardy/dest.css">
-    <link rel="stylesheet" type="text/css" href="/fix/ardy/contact.css">
+    <link rel="stylesheet" type="text/css" href="dest.css">
+    <link rel="stylesheet" type="text/css" href="contact.css">
    
   </head>
 <body>
 
 <!-- navigasi & top bar -->
 <div class="navbar" id="navbar">
-  <div class="logo"><a href="">Logo</a></div>
+  <div class="logo"><a href="../fadil/awal.html"><img src="../logo/logo.png" alt="logo"></a></div>
   <div class="btnspan">
     <input type="checkbox" name="" id="checkbox" onclick="btn">
     <span></span>
@@ -23,10 +23,10 @@
   </div>
   <nav>
     <ul>
-      <li><a href="/fix/fadil/awal.html">Home</a></li>
-      <li><a href="/fix/ardy/destinasi-home.html">Destinasi</a></li>
-      <li><a href="">About us</a></li>
-      <li  class="active"><a href="/fix/ardy/contact.html">Contact Us</a></li>
+      <li><a href="../fadil/awal.html">Home</a></li>
+      <li><a href="destinasi-home.html">Destinasi</a></li>
+      <li><a href="../fadil/team.html">Team</a></li>
+      <li  class="active"><a href="contact.html">Contact Us</a></li>
     </ul>
   </nav>
 </div> 
@@ -35,17 +35,13 @@
 <div class="container-form">
     <h1>Contact us</h1>
     <div class="kiri">
-        <img src="/fix/logo/send.png" alt="" srcset="">
+        <img src="../logo/send.png" alt="" srcset="">
     </div>
     <div class="kanan">
         <form action="">
             <div class="row">
-                <div class="col-1"><label for="fname">Nama Depan</label></div>
-                <div class="col-2"><input type="text" name="fname" id="fname"placeholder="nama depan anda..."></div>
-            </div>
-            <div class="row">
-                <div class="col-1"><label for="fname">Nama Depan</label></div>
-                <div class="col-2"><input type="text" name="lname" id="lname"placeholder="nama belakang anda..."></div>
+                <div class="col-1"><label for="fname">Nama</label></div>
+                <div class="col-2"><input type="text" name="fname" id="fname"placeholder="nama anda..."></div>
             </div>
             <div class="row">
                 <div class="col-1"><label for="email">email </label></div>
@@ -60,23 +56,29 @@
                 </div>
               </div>
               
-              <div class="row">
-                <input type="submit" value="Submit">
+              <div class="row tbl">
+                <input type="submit" value="Submit" onclick="Function1()";>
+                <script>
+                function Function1() {
+                  alert("\t Terimakasih! \n Pesan anda telah terkirim..."); 
+                }
+                </script>
               </div>
         </form>
     </div>
 </div>
 
+
   <!-- footer//css dari contact.css -->
 <footer>
-    <div class="atas"><img src="/fix/logo/goexplore.png" alt="" srcset=""></a></div>
+    <div class="atas"><img src="../logo/goexplore.png" alt="" srcset=""></a></div>
 
 <video id="autoplay" muted playsinline>
-    <source src="/fix/Wonderful Indonesia A Visual Journey.mp4" type="video/mp4">
+    <source src="../Wonderful Indonesia A Visual Journey.mp4" type="video/mp4">
 </video>
 <div class="fkiri">
     <h2>#Explore Indonesia</h2>
-<img src="/fix/image/logo.png" alt="img">
+<img src="../image/logo.png" alt="img">
 </div>
 <div class="ftengah">
     <h2>#Inspiration</h2>
@@ -90,13 +92,12 @@
 </div>
 <div class="fkanan">
     <h2>Follow social media</h2>
-
     <p>follow us:</p>
     <div>
-      <img src="/fix/logo/facebook.png" alt="fb" >
-      <img src="/fix/logo/instagram.png" alt="ig">
-      <img src="/fix/logo/twitter.png" alt="twt">
-      <img src="/fix/logo/youtube.png" alt="yt">
+      <img src="../logo/facebook.png" alt="fb" >
+      <img src="../logo/instagram.png" alt="ig">
+      <img src="../logo/twitter.png" alt="twt">
+      <img src="../logo/youtube.png" alt="yt">
     </div>
 </div>
 <div class="bawah">
@@ -108,7 +109,7 @@
       </ul>
 </div>
 </footer>
-<script src="/fix/ardy/js.js">   </script>
+<script src="js.js">   </script>
 </body>
 </html>
 

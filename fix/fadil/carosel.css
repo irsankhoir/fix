@@ -1,9 +1,11 @@
 .carousel-caption{
+    z-index: 0;
     margin-bottom : 32%;
     text-align: center !important;
 }
 
 .carousel{
+    z-index: 0;
     height: 50%;
     background-color: black;
 }

@@ -1,92 +1,90 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+body{
+    margin:0;
 }
-body {
-    overflow-x: hidden;
-}
-
-input[type=text],input[type=e-mail], textarea {
-    width: 80%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-}
-label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-}
-input[type=submit] {
-    margin-top: 20px;
-    background-color: #004ba1;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+.tim{
+    width: 100%;
     display: block;
-    float: right;
-    margin-right: 100px;
 }
-input[type=submit]:hover  {
-    background-color: #11088b;
-    opacity: 0.8;
-}
-.col-1 {
+.txt-tim{
+    padding-left: 20px;
+    padding-top: 100px;
     float: left;
     width: 25%;
-    margin-top: 6px;
+    font-family: 'Playfair Display';
 }
-.col-2 {
+.txt-tim p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.gmb-tim{
+    padding-top: 80px;
+    display: block;
     float: left;
     width: 75%;
-    margin-top: 6px;
 }
-
-  /* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-} 
-.container-form {
-    width: 80%;
-    border-radius: 5px;
+.detail-inti{
+    display: inline-block;
+    width: 75%;
+    box-shadow: 0px 0px 10px 8px #F4f4f4;
+    padding-bottom: 300px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.detail-inti2{
+    padding-bottom: 300px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    display: inline-block;
+    width: 36%;
+    box-shadow: 0px 0px 10px 8px #F4f4f4;
+}
+.detail{
     display: block;
-    height: 410px;
-    margin-top: 120px;
-    position: relative;
-    margin-left: 10%;
-    margin-bottom: 200px;
+    padding-right: 10px;
+    float: left;
+    width: 50%;
+    text-align: center;
 }
 
-.container-form h1{
-    width: 100%;
-    padding-bottom: 20px;
-    border-bottom: solid rgb(4, 24, 136);
-}
-.kiri img{
-    width: 52%;
-    margin: 30%;
-}
-.kiri{
+.imgp{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
     float: left;
-    width: 35%;
+    top: 50px;
+    }
+
+.imgp .foto{
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -30px;
+    border-radius : 300px;
+    transition: all 1s;
 }
-.kanan{
-    width: 65%;
-    float: right;
-    padding: 50px;
-    border-left: solid rgb(66, 3, 124);
+.saya{   
+    text-align: center;
+    margin-top: 5px;
+}
+
+.foto:hover {
+    background-position: -5px -40px;
+    background-size: 110%;
+    transition: all 1s;    
 }
 
 /* footer */
 footer{
     border-top: #710080 solid 2px;
-    margin-top: 100px;
-    position: relative;
+    margin-top: 2600px;
+    position: absolute;
     width: 100%;
     height: fit-content;
     padding-bottom: 1px;
@@ -106,9 +104,10 @@ footer video {
     object-fit: cover;
     position: relative;
 }
+
 .fkiri{
     width: 30%;
-    height: 220px;
+    height: 250px;
     background-color: rgba(0, 0, 0, 0.925);
     float: left;
 }
@@ -123,7 +122,7 @@ footer video {
 .ftengah{
     margin: 0;
     width: 40%;
-    height: 220px;
+    height: 250px;
     background-color: rgba(0, 0, 0, 0.925);
     float: left;
 }
@@ -152,7 +151,7 @@ footer video {
 }
 .fkanan{
     width: 30%;
-    height: 220px;
+    height: 250px;
     background-color: rgba(0, 0, 0, 0.925);
     float: right;
 }
@@ -208,6 +207,7 @@ footer video {
 }
 
 
+
 /* resposive */
 @media screen and (max-width: 840px){
     .fkiri{
@@ -241,35 +241,29 @@ margin-right: 35%;
 @media screen and (max-width:576px){
 .container-form{
     width: 85%;
-    margin-top: 95px;
 }
-input[type=text],input[type=e-mail], textarea{
-    width: 99%;
-    margin-left: 5px;
+/* footer */
+footer{
+    margin-top: 4800px;
+    border-top: solid rgb(42, 42, 44) 2px;
+    width: 100%;
 }
-input[type=submit]{
-    margin-right:15px;
-}
-.tbl{
-    margin-top: 45px;
+.atas img{
+    width: 190px;
+    padding: 5px;
 }
 .kiri{
     display: none;
 }
 .kanan{
     width: 100%;
-   padding: 25px;
 }
-
-/* footer */
-footer{
-    border-top: solid rgb(42, 42, 44) 2px;
+input[type=text],input[type=e-mail], textarea{
+    width: 95%;
 }
-.atas img{
-    width: 190px;
-    padding: 5px;
+input[type=submit]{
+    margin-right:15px;
 }
-
 .fkiri{
     float: none;
     width: 100%;
@@ -327,8 +321,35 @@ footer h2{
 }
 
 
-/* ^^^footer^^^^ */
-/*=========================*/
+/* resposive */
+@media screen and (max-width: 1000px){
 
 }
 
+@media screen and (max-width:670px){
+    .tim{
+    width: 100%;
+}
+    .txt-tim{
+    width: 100%;
+
+}
+    .gmb-tim{
+    width: 100%;
+}
+
+.foto:hover {
+    background-position: 0px -40px;
+    transition: all 2s;    
+}
+
+.detail-inti{
+    margin-left: 40px;
+    width: 160%;
+}
+
+.detail-inti2{
+    width: 78%;
+}
+}
+}
